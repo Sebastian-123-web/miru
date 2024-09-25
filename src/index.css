@@ -12,7 +12,7 @@
 
      @font-face {
         font-family: 'Sirenik';
-        src: url('Sirenik-Regular.woff') format('woff');
+        src: url('/Sirenik-Regular.woff') format('woff');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
