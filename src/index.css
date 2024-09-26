@@ -2,18 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-     /* @font-face {
-         font-family: 'Sirenik';
-         font-weight: normal;
-         font-style: normal;
-         font-display: swap;
-         src: url('/Sirenik-Regular.woff2') format('woff2');
-     } */
-
-     @font-face {
-        font-family: 'Sirenik';
-        src: url('/Sirenik-Regular.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
+@font-face {
+    font-family: 'Sirenik';
+    src: url('/Sirenik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

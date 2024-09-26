@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         sirenik: ['Sirenik'],
+        montserrat: ['Montserrat'],
       },
     },
   },
