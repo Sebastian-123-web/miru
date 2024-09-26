@@ -11,9 +11,6 @@ export const Navegation = () => {
                     <li><Button name={'Inicio'} link={'#'} /></li>
                     <li><Button name={'Favoritos'} link={'#'} /></li>
                     <li><Button name={'Notificaciones'} link={'#'} /></li>
-                    {/* <li><a href="" className='flex flex-row text-[#362c24]'><HomeIcon className='w-5 mr-1' />Inicio</a></li>
-                <li><a href="" className='flex flex-row text-[#362c24]'><HeartIcon className='w-5 mr-1' />Favoritos</a></li>
-                <li><a href="" className='flex flex-row text-[#362c24]'><BellIcon className='w-5 mr-1' />Notificaciones</a></li> */}
                 </ul>
             </nav>
             <ul className='flex flex-row gap-7'>
