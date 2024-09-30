@@ -9,8 +9,8 @@ export const Navegation = () => {
             <nav>
                 <ul className='flex flex-row gap-12'>
                     <li><Button name={'Inicio'} link={'#'} /></li>
+                    <li><Button name={'Productos'} link={'#'} /></li>
                     <li><Button name={'Favoritos'} link={'#'} /></li>
-                    <li><Button name={'Notificaciones'} link={'#'} /></li>
                 </ul>
             </nav>
             <ul className='flex flex-row gap-7'>
