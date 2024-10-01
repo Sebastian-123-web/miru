@@ -1,9 +1,13 @@
+import { useState } from "react"
 
 export const Producto = () => {
+
+    const [favorite,setFavorite] = useState(false)
+
   return (
     <article className="overflow-hidden relative">
-        <button className="absolute top-2 right-2 w-7">
-            <img src="/heart-no-favorite.svg" alt="" className="w-7 h-7" />
+        <button className="absolute top-2 right-2 w-7" onClick={() => favorite ? setFavorite(false) : setFavorite(true)}>
+            <img src={ favorite ? `/heart-favorite.svg` : `/heart-no-favorite.svg`} alt="" className="w-7 h-7" />
         </button>
         <img src="/ropa1.jpeg" alt="" className="" />
         <div className="py-4 px-4 border-l border-r border-b border-[#362c243f] grid gap-3">
@@ -15,7 +19,7 @@ export const Producto = () => {
                 </div>
                 <p className="font-bold">S/.49.50</p>
             </div>
-            <button className="w-full bg-[#6c6d4e] text-white text-xs font-bold py-2">AGREGAR AL CARRITO</button>
+            <button className="w-full bg-[#6c6d4e] text-white text-xs font-bold py-2 active:scale-[.98] duration-200">AGREGAR AL CARRITO</button>
         </div>
     </article>
   )
