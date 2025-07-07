@@ -1,0 +1,122 @@
+body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      background-color: #f5f3ef;
+      /*tono tierra claro */
+
+      /*background: linear-gradient(rgba(245,243,239,0.85), rgba(245,243,239,0.85)), url('../img/MIRU_LOGO_SOLO.png') no-repeat center center/cover;*/
+      background: linear-gradient(rgb(245 243 239 / 97%), rgb(245 243 239 / 94%)), url(../img/MIRU_LOGO_SOLO.png) no-repeat center center / cover;      color: #2f2f2f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      background-color: #dcd2c0;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 24px;
+      color: #4b4033;
+    }
+    .logo .miru_logo{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    p {
+      margin: 10px 0 30px;
+      font-size: 16px;
+      color: #5a5a5a;
+    }
+
+    .redes{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+    @media (max-width: 600px) {
+      .redes {
+        flex-direction: column;
+      }
+    }
+
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 28px;
+      font-size: 16px;
+      text-decoration: none;
+      color: white;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .instagram {
+      background-color: #8e6e53; /* marrón suave */
+      width: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .instagram:hover {
+      background-color: #7c5c43;
+    }
+    .instagram .instagram_logo{
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+
+    .whatsapp {
+      background-color: #4c785c;
+      width: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .whatsapp:hover {
+      background-color: #3c614a;
+    }
+    .whatsapp .whatsapp_logo{
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+    }
+
+    .catalogo {
+      background-color: #6f5c4d;
+      width: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .catalogo:hover {
+      background-color: #5c4b3e;
+    }
+    .catalogo .catalogo_logo{
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+    }
+
