@@ -119,4 +119,19 @@ body {
       height: 25px;
       margin-right: 5px;
     }
+    .tiktok {
+      background-color: #4c785c;
+      width: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
+    .tiktok:hover {
+      background-color: #3c614a;
+    }
+    .tiktok .tiktok_logo{
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+    }
